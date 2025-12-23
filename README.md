@@ -75,8 +75,6 @@ Edit the .env file and add your Discord webhook URL:
 
 DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/XXXXXXXX
 
-Keep webhook URLs private.
-
 ---
 
 ### 3. Build and Start the Container
@@ -103,7 +101,6 @@ This will:
 If no messages appear:
 - Verify JSON Output Enabled = True
 - Confirm MQTT broker IP and port
-- Ensure device role is ROUTER
 - Confirm Ok to MQTT = True
 
 Check container logs:
